@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Runtime-generated data
+data/evol.db
+data/*.db-shm
+data/*.db-wal
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tool output
+tools/shots/
+node_modules/

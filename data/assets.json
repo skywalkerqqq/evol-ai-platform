@@ -1,0 +1,14 @@
+[
+  {"name": "PubMed / Europe PMC 索引", "category": "文献", "size": "12,480 篇", "license": "CC-BY 或 OA", "usage": "检索", "owner": "生信组", "frequency": "每日增量", "note": "PaperQA2 建索引"},
+  {"name": "腺病毒载体改造专利族", "category": "专利", "size": "318 件", "license": "需逐件核查", "usage": "检索", "owner": "法务 + 生信", "frequency": "月度", "note": "商用前必须逐件做 FTO 核查"},
+  {"name": "内部 scRNA-seq（NMIBC）", "category": "组学", "size": "128 样本", "license": "内部", "usage": "训练", "owner": "生信组", "frequency": "随实验", "note": "RDR1 机制验证的直接证据来源"},
+  {"name": "内部 miRNA-seq", "category": "组学", "size": "154 样本", "license": "内部", "usage": "训练", "owner": "生信组", "frequency": "随实验", "note": "与 RDR1 修复靶点对齐"},
+  {"name": "公共 TCGA / GTEx", "category": "组学", "size": "~11k 样本", "license": "CC-BY / 开放", "usage": "训练", "owner": "生信组", "frequency": "季度", "note": "跨癌种对照基线"},
+  {"name": "Open Targets 数据释放", "category": "证据库", "size": "季度更新", "license": "CC0", "usage": "训练", "owner": "生信组", "frequency": "季度", "note": "靶点-疾病证据，CC0 可商用"},
+  {"name": "临床前毒理与 PK", "category": "实验", "size": "76 项", "license": "内部", "usage": "训练", "owner": "实验组", "frequency": "随实验", "note": "ADC/载体毒理读数"},
+  {"name": "ELN 构建体台账", "category": "实验", "size": "2,140 条", "license": "内部", "usage": "训练", "owner": "实验组", "frequency": "实时", "note": "已结构化入库，含归因"},
+  {"name": "动物模型读数", "category": "实验", "size": "617 条（含阴性）", "license": "内部", "usage": "训练", "owner": "实验组", "frequency": "实时", "note": "阴性记录已对称入库"},
+  {"name": "IIT 随访数据", "category": "临床", "size": "42 例", "license": "内部 · 去标识", "usage": "检索", "owner": "临床组", "frequency": "月度", "note": "需伦理批件与数据使用协议"},
+  {"name": "公开 FEP+ benchmark", "category": "基准", "size": "8 靶点", "license": "开放", "usage": "评测", "owner": "AI 组", "frequency": "不定期", "note": "用于校准结构/亲和力预测"},
+  {"name": "CASP16 亲和力集", "category": "基准", "size": "140 复合物", "license": "开放", "usage": "评测", "owner": "AI 组", "frequency": "不定期", "note": "盲测结构预测准确率"}
+]

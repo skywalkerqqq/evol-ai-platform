@@ -1,0 +1,52 @@
+{
+  "note": "内部整理的适应症/靶点评估数据，用于加权排序演示。评分非公开数据库直连结果，不可直接用于立项结论。",
+  "targets": [
+    {
+      "name": "膀胱癌 NMIBC", "mol": "RDR1 / miRNA 网络缺陷",
+      "genetics": 74, "omics": 93, "lit": 86, "druggable": 90, "safety": 76, "conserve": 84,
+      "ev": [
+        {"d": "组学", "t": "miRNA 网络结构缺陷在 92% NMIBC 样本中可检出", "s": "内部 scRNA-seq · 2026-08"},
+        {"d": "机制", "t": "RDR1 表达后下游 14 个 miRNA 靶基因显著回落", "s": "内部验证 · 2026-06"},
+        {"d": "临床", "t": "NMIBC 膀胱灌注给药路径成熟（CG0070 先例）", "s": "Phase III 文献 · 2023"},
+        {"d": "跨物种", "t": "RDR1 催化域与哺乳动物 RDR6 同源 41%", "s": "结构比对 · Boltz-2"}
+      ]
+    },
+    {
+      "name": "肝细胞癌 HCC", "mol": "RDR1 / miRNA 网络缺陷",
+      "genetics": 68, "omics": 88, "lit": 79, "druggable": 72, "safety": 58, "conserve": 80,
+      "ev": [
+        {"d": "组学", "t": "miRNA 缺陷覆盖率 76%，但异质性高（CV 0.42）", "s": "内部 scRNA-seq · 2026-07"},
+        {"d": "临床", "t": "静脉给药后肝富集依赖载体改造，剂量窗口待验证", "s": "临床前 PK · 2026-05"}
+      ]
+    },
+    {
+      "name": "前列腺癌 mCRPC", "mol": "RDR1 / miRNA 网络缺陷",
+      "genetics": 71, "omics": 84, "lit": 74, "druggable": 69, "safety": 66, "conserve": 78,
+      "ev": [
+        {"d": "组学", "t": "缺陷覆盖率 71%，骨转移灶一致性较好", "s": "内部数据 · 2026-04"},
+        {"d": "机制", "t": "AR 通路与 miRNA 网络存在交叉调控", "s": "文献综述 · 2025"}
+      ]
+    },
+    {
+      "name": "结直肠癌肝转移", "mol": "RDR1 / 载荷组合",
+      "genetics": 62, "omics": 79, "lit": 68, "druggable": 64, "safety": 70, "conserve": 73,
+      "ev": [
+        {"d": "组学", "t": "肝转移灶 miRNA 缺陷谱与原发灶差异显著", "s": "内部数据 · 2026-03"}
+      ]
+    },
+    {
+      "name": "三阴性乳腺癌", "mol": "RDR1 / miRNA 网络缺陷",
+      "genetics": 64, "omics": 72, "lit": 66, "druggable": 61, "safety": 63, "conserve": 75,
+      "ev": [
+        {"d": "组学", "t": "缺陷覆盖率 68%，亚型间差异大", "s": "公共数据 · TCGA"}
+      ]
+    },
+    {
+      "name": "胰腺癌", "mol": "RDR1 / 载荷组合",
+      "genetics": 55, "omics": 66, "lit": 61, "druggable": 44, "safety": 49, "conserve": 70,
+      "ev": [
+        {"d": "可成药性", "t": "基质屏障导致病毒分布受限，给药路径未解", "s": "文献 · 2025"}
+      ]
+    }
+  ]
+}
